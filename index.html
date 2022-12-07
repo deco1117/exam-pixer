@@ -17,15 +17,17 @@
                 <!-- part nav -->
                 <nav>
                     <ul>
-                        <ul class="nav-link"><a href="#">Services</a></ul>
-                        <ul class="nav-link"><a href="#">Portfolio</a></ul>
-                        <ul class="nav-link"><a href="#">Team</a></ul>
-                        <ul class="nav-link"><a href="#">Blog</a></ul>
-                        <ul class="nav-link"><a href="#">Contacts</a></ul>
+                        <ul class="nav-link"><a class="header-link" href="#">Services</a></ul>
+                        <ul class="nav-link"><a class="header-link" href="#">Portfolio</a></ul>
+                        <ul class="nav-link"><a class="header-link" href="#">Team</a></ul>
+                        <ul class="nav-link"><a class="header-link" href="#">Blog</a></ul>
+                        <ul class="nav-link"><a class="header-link" href="#">Contacts</a></ul>
                     </ul>
                 </nav>
             </div>
-            <a href="tel:(239) 555-0108"><button class="tel-btn">(239) 555-0108</button></a>
+            <div class="header-btn">
+                <a href="tel:(239) 555-0108"><button class="tel-btn">(239) 555-0108</button></a>
+            </div>
         </div>
     </header>
     <!-- part main -->
@@ -64,7 +66,7 @@
                         <p class="block-b-catd-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Ut enim ad minim veniam, quis 
                         </p>
-                        <a href="#">View  more</a>
+                        <a class="block-b-catd-link" href="#">View  more</a>
                     </div>
                     <div class="block-b-card">
                         <div class="block-b-catd-top">
@@ -78,7 +80,7 @@
                         <p class="block-b-catd-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
                         </p>
-                        <a href="#">View  more</a>
+                        <a class="block-b-catd-link" href="#">View  more</a>
                     </div>
                     <div class="block-b-card">
                         <div class="block-b-catd-top">
@@ -86,13 +88,17 @@
                                 Branding
                             </h3>
                             <div class="circle">
-                                <img width="30" height="30" src="./img/blur.svg" alt="icon-branding">
+                                <div>
+                                    <img width="30" height="30" src="./img/blur.svg" alt="icon-branding">
+                                </div>
                             </div>
                         </div>
-                        <p class="block-b-catd-text">
-                            No the other hand, we denounce <br> with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee 
-                        </p>
-                        <a href="#">View  more</a>
+                        <div class="block-b-catd-text">
+                            <p>
+                                No the other hand, we denounce <br> with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee 
+                            </p>
+                        </div>
+                        <a class="block-b-catd-link" href="#">View  more</a>
                     </div>
                     <div class="block-b-card">
                         <div class="block-b-catd-top">
@@ -106,7 +112,7 @@
                         <p class="block-b-catd-text">
                             Which is the same as saying <br> through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our  
                         </p>
-                        <a href="#">View  more</a>
+                        <a class="block-b-catd-link" href="#">View  more</a>
                     </div>
                     <div class="block-b-card">
                         <div class="block-b-catd-top">
@@ -120,7 +126,7 @@
                         <p class="block-b-catd-text">
                             But in certain circumstances <br> and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted
                         </p>
-                        <a href="#">View  more</a>
+                        <a class="block-b-catd-link" href="#">View  more</a>
                     </div>
                 </div>
             </div>
@@ -135,8 +141,8 @@
                     Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
                 </p>
             </div>
-            <div class="block-c-buttom">
-                <div class="block-c-card">
+            <ul class="block-c-buttom">
+                <li class="block-c-card">
                     <img width="488" height="390" src="./img/rectangle-a.png" alt="rectangle picture">
                     <div class="c-card-right">
                         <h4 class="block-c-card-title">
@@ -146,8 +152,8 @@
                             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                         </p>
                     </div>
-                </div>
-                <div class="block-c-card">
+                </li>
+                <li class="block-c-card">
                     <img width="488" height="390" src="./img/rectangle-b.png" alt="rectangle picture">
                     <div class="c-card-right">
                         <h4 class="block-c-card-title">
@@ -157,8 +163,8 @@
                             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                         </p>
                     </div>
-                </div>
-                <div class="block-c-card">
+                </li>
+                <li class="block-c-card">
                     <img width="488" height="390" src="./img/rectangle-c.png" alt="rectangle picture">
                     <div class="c-card-right">
                         <h4 class="block-c-card-title">
@@ -168,8 +174,8 @@
                             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                         </p>
                     </div>
-                </div>
-            </div>
+                </li>
+            </ul>
         </section>
         <!-- the fourth section -->
         <section class="block-d container">
@@ -184,16 +190,16 @@
             <div class="block-d-buttom">
                 <form class="form-d" action="https://echo.htmlacademy.ru" method="POST">
                     <div class="input-name">
-                        <label for="name">Name</label>
+                        <label for="name" aria-label="Description">Name</label>
                         <input required type="text" id="name" name="name">
                     </div>
                     <div class="input-number">
-                        <label for="number">Phone number</label>
+                        <label for="number" aria-label="Description">Phone number</label>
                         <input required type="tel" id="number" name="number">
                     </div>
                     <div class="input-our">
-                        <label for="description">Description</label>
-                        <textarea required name="description" id="textarea" cols="20" rows="1" ></textarea>
+                        <label for="description" aria-label="Description">Description</label>
+                        <select name="description" id="description"></select>
                     </div>
                     <div class="form-btn">
                         <button type="submit">Send</button></a>
@@ -237,10 +243,10 @@
                     <li><a class="footer-link" href="#" type="address">4140 Parker Rd. Allentown, New <br> Mexico 31134</a></li>
                 </ul>
                 <div class="social">
-                    <img width="24" height="24" src="./img/twitter.svg" alt="icon-twit">
-                    <img width="24" height="24" src="./img/facebook.svg" alt="icon-facebook">
-                    <img width="24" height="24" src="./img/in.svg" alt="icon-in">
-                    <img width="24" height="24" src="./img/instagramm.svg" alt="icon-instagramm">
+                    <a href="https://twitter.com/" target="_blank"><img width="24" height="24" src="./img/twitter.svg" alt="icon-twit"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img width="24" height="24" src="./img/facebook.svg" alt="icon-facebook"></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><img width="24" height="24" src="./img/in.svg" alt="icon-in"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img width="24" height="24" src="./img/instagramm.svg" alt="icon-instagramm"></a>
                 </div>
                 </div>
             </div>
@@ -249,7 +255,7 @@
                 <hr>
         </div>
         <div class="footer-buttom container">
-            <a href="#"><img width="81" height="28"  src="./img/footer-logo.svg" alt="logo-icon"></a>
+            <a href="#"><img class="footer" width="81" height="28"  src="./img/footer-logo.svg" alt="logo-icon"></a>
             <h6>Copyright © 2022 Pixer</h6>
         </div>
     </footer>

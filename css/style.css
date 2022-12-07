@@ -62,7 +62,7 @@ header {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -78,12 +78,26 @@ header {
     gap: 30px;
 }
 
-.nav-link a {
+.header-link {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     color: #101010;
+    margin-left: auto;
+}
+
+.header-link:hover {
+    color: #1AAB7B;
+}
+
+.header-link:active {
+    color: #1AAB7B;
+    opacity: 0.6;
+}
+
+.header-btn {
+    margin-left: auto;
 }
 
 .tel-btn {
@@ -99,8 +113,17 @@ header {
 }
 
 .tel-btn:hover{
-    color: #000000;
-    background-color: white;
+    background: #FFFFFF;
+    border: 1px solid #1AAB7B;
+    border-radius: 6px;
+    color: #1AAB7B;
+}
+
+.tel-btn:active{
+    background: #101010;
+    opacity: 0.6;
+    border-radius: 6px;
+    color: #FFFFFF;
 }
 
 /* first section */
@@ -142,6 +165,21 @@ header {
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 156px;
+}
+
+.block-a-btn:hover {
+    background: #FFFFFF;
+    border: 1.5px solid #1AAB7B;
+    border-radius: 6px;
+    color: #1AAB7B;
+    text-decoration: underline;
+}
+
+.block-a-btn:active {
+    background: #1AAB7B;
+    opacity: 0.7;
+    border-radius: 6px;
+    color: #FFFFFF
 }
 
 .block-a-right iframe {
@@ -206,10 +244,6 @@ header {
     height: 64px;
 }
 
-.circle:hover {
-    background: #FFFFFF;
-}
-
 .block-b-card-title {
     font-style: normal;
     font-weight: 600;
@@ -217,14 +251,9 @@ header {
     line-height: 140%;
     color: #101010;
     margin-bottom: 20px;
-
 }
 
-.block-b-card-title:hover {
-    color: white;
-}
-
-.block-b-card p {
+.block-b-catd-text {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -233,14 +262,10 @@ header {
     margin-bottom: 23px;
 }
 
-.block-b-card p:hover {
-    color: white;
-}
-
 .block-b-card:nth-child(3n+1) p {
     margin-bottom: 50px;
 }
-.block-b-card a {
+.block-b-catd-link {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -249,9 +274,21 @@ header {
     color: #000000;
 }
 
-.block-b-card a:hover{
+.block-b-card:hover .block-b-card-title{
     color: white;
 }
+
+.block-b-card:hover .block-b-catd-link {
+    color: white;
+}
+.block-b-card:hover .block-b-catd-text {
+    color: white;
+}
+
+.block-b-card:hover .circle {
+    background: white;
+}
+
 /* the third section */
 .block-c {
     margin-bottom: 25px;
@@ -302,7 +339,7 @@ header {
     line-height: 140%;
     color: #101010;
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .block-c-card-text {
@@ -408,7 +445,7 @@ input[type=tel]{
     width: 384px;
 }
 
-textarea{
+#description{
     border: none;
     border-bottom: 1px solid #636F87;
     background-color: #F2F4F6;
@@ -473,7 +510,7 @@ footer {
     color: #FFFFFF;
 }
 
-.footer-list-left .left-a {
+.left-a {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -484,7 +521,7 @@ footer {
     color: #A1A8B7;
 }
 
-.footer-list-left .left-b {
+.left-b {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -558,6 +595,15 @@ footer {
     padding: 50px 0;
 
 }
+
+.footer-logo:hover{
+    opacity: 0.8;
+}
+
+.footer-logo:hover{
+    opacity: 0.6;
+}
+
 
 .footer-buttom h6 {
     font-style: normal;
